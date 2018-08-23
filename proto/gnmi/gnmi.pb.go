@@ -971,7 +971,7 @@ func (m *Value) GetType() Encoding {
 }
 
 // Error message previously utilised to return errors to the client. Deprecated
-// in favour of using the google.golang.org/genproto/googleapis/rpc/status
+// in favour of using the github.com/sunnogo/go-genproto/googleapis/rpc/status
 // message in the RPC response.
 // Reference: gNMI Specification Section 2.5
 //
