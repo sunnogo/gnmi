@@ -41,7 +41,7 @@ import (
 	log "github.com/golang/glog"
 	"context"
 	"github.com/sunnogo/protobuf/proto"
-	"golang.org/x/crypto/ssh/terminal"
+	"github.com/sunnogo/crypto/ssh/terminal"
 	"github.com/sunnogo/gnmi/cli"
 	"github.com/sunnogo/gnmi/client"
 	"github.com/sunnogo/gnmi/client/flags"
