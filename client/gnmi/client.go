@@ -33,7 +33,7 @@ import (
 	"github.com/sunnogo/protobuf/proto"
 	"github.com/sunnogo/grpc-go/credentials"
 	"github.com/sunnogo/grpc-go"
-	"github.com/openconfig/ygot/ygot"
+	"github.com/sunnogo/ygot/ygot"
 	"github.com/sunnogo/gnmi/client"
 	"github.com/sunnogo/gnmi/client/grpcutil"
 	"github.com/sunnogo/gnmi/path"

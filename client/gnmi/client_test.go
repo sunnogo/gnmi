@@ -26,7 +26,7 @@ import (
 	"github.com/google/go-cmp/cmp/cmpopts"
 	"github.com/kylelemons/godebug/pretty"
 	"github.com/sunnogo/grpc-go"
-	"github.com/openconfig/ygot/ygot"
+	"github.com/sunnogo/ygot/ygot"
 	"github.com/sunnogo/gnmi/client"
 	"github.com/sunnogo/gnmi/testing/fake/gnmi"
 	"github.com/sunnogo/gnmi/testing/fake/testing/grpc/config"
