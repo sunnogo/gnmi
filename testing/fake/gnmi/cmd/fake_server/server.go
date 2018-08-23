@@ -27,12 +27,12 @@ import (
 	"flag"
 	
 	log "github.com/golang/glog"
-	"github.com/golang/protobuf/proto"
-	"google.golang.org/grpc/credentials"
-	"google.golang.org/grpc"
-	"github.com/openconfig/gnmi/testing/fake/gnmi"
+	"github.com/sunnogo/protobuf/proto"
+	"github.com/sunnogo/grpc-go/credentials"
+	"github.com/sunnogo/grpc-go"
+	"github.com/sunnogo/gnmi/testing/fake/gnmi"
 
-	fpb "github.com/openconfig/gnmi/testing/fake/proto"
+	fpb "github.com/sunnogo/gnmi/testing/fake/proto"
 )
 
 var (

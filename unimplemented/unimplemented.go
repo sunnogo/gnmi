@@ -20,10 +20,10 @@ package unimplemented
 
 import (
 	"context"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc"
+	"github.com/sunnogo/grpc-go/codes"
+	"github.com/sunnogo/grpc-go"
 
-	pb "github.com/openconfig/gnmi/proto/gnmi"
+	pb "github.com/sunnogo/gnmi/proto/gnmi"
 )
 
 // Server is a type that can be embedded anonymously in a gNMI server to stub

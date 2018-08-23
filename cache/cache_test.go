@@ -27,13 +27,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/golang/protobuf/proto"
+	"github.com/sunnogo/protobuf/proto"
 	"github.com/google/go-cmp/cmp"
-	"github.com/openconfig/gnmi/client"
-	"github.com/openconfig/gnmi/ctree"
-	"github.com/openconfig/gnmi/metadata"
+	"github.com/sunnogo/gnmi/client"
+	"github.com/sunnogo/gnmi/ctree"
+	"github.com/sunnogo/gnmi/metadata"
 
-	gpb "github.com/openconfig/gnmi/proto/gnmi"
+	gpb "github.com/sunnogo/gnmi/proto/gnmi"
 )
 
 func TestHasTarget(t *testing.T) {

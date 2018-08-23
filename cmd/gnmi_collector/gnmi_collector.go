@@ -29,17 +29,17 @@ import (
 	
 	log "github.com/golang/glog"
 	"context"
-	"github.com/golang/protobuf/proto"
-	"google.golang.org/grpc/credentials"
-	"google.golang.org/grpc"
-	"github.com/openconfig/gnmi/cache"
-	"github.com/openconfig/gnmi/client"
-	gnmiclient "github.com/openconfig/gnmi/client/gnmi"
-	"github.com/openconfig/gnmi/subscribe"
-	"github.com/openconfig/gnmi/target"
+	"github.com/sunnogo/protobuf/proto"
+	"github.com/sunnogo/grpc-go/credentials"
+	"github.com/sunnogo/grpc-go"
+	"github.com/sunnogo/gnmi/cache"
+	"github.com/sunnogo/gnmi/client"
+	gnmiclient "github.com/sunnogo/gnmi/client/gnmi"
+	"github.com/sunnogo/gnmi/subscribe"
+	"github.com/sunnogo/gnmi/target"
 
-	gnmipb "github.com/openconfig/gnmi/proto/gnmi"
-	targetpb "github.com/openconfig/gnmi/proto/target"
+	gnmipb "github.com/sunnogo/gnmi/proto/gnmi"
+	targetpb "github.com/sunnogo/gnmi/proto/target"
 )
 
 var (

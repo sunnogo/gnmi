@@ -27,13 +27,13 @@ import (
 	"time"
 
 	log "github.com/golang/glog"
-	"github.com/golang/protobuf/proto"
-	"github.com/openconfig/gnmi/client"
-	"github.com/openconfig/gnmi/ctree"
-	"github.com/openconfig/gnmi/metadata"
-	"github.com/openconfig/gnmi/path"
+	"github.com/sunnogo/protobuf/proto"
+	"github.com/sunnogo/gnmi/client"
+	"github.com/sunnogo/gnmi/ctree"
+	"github.com/sunnogo/gnmi/metadata"
+	"github.com/sunnogo/gnmi/path"
 
-	gpb "github.com/openconfig/gnmi/proto/gnmi"
+	gpb "github.com/sunnogo/gnmi/proto/gnmi"
 )
 
 // CTreeType is used to switch between client.Notification and gnmi.Notification cache.

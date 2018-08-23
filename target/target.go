@@ -22,7 +22,7 @@ import (
 	"errors"
 	"fmt"
 
-	pb "github.com/openconfig/gnmi/proto/target"
+	pb "github.com/sunnogo/gnmi/proto/target"
 )
 
 // Validate confirms that the configuration is valid.

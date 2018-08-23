@@ -24,12 +24,12 @@ import (
 
 	log "github.com/golang/glog"
 	"github.com/kylelemons/godebug/pretty"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc"
-	"github.com/openconfig/gnmi/testing/fake/queue"
+	"github.com/sunnogo/grpc-go/codes"
+	"github.com/sunnogo/grpc-go"
+	"github.com/sunnogo/gnmi/testing/fake/queue"
 
-	gpb "github.com/openconfig/gnmi/proto/gnmi"
-	fpb "github.com/openconfig/gnmi/testing/fake/proto"
+	gpb "github.com/sunnogo/gnmi/proto/gnmi"
+	fpb "github.com/sunnogo/gnmi/testing/fake/proto"
 )
 
 // Client contains information about a client that has connected to the fake.

@@ -10,7 +10,7 @@ well-known extensions are defined within this file, along with a registry for
 extensions defined outside of this package.
 */
 
-import proto "github.com/golang/protobuf/proto"
+import proto "github.com/sunnogo/protobuf/proto"
 import fmt "fmt"
 import math "math"
 

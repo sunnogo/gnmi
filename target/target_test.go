@@ -19,8 +19,8 @@ package target
 import (
 	"testing"
 
-	gpb "github.com/openconfig/gnmi/proto/gnmi"
-	pb "github.com/openconfig/gnmi/proto/target"
+	gpb "github.com/sunnogo/gnmi/proto/gnmi"
+	pb "github.com/sunnogo/gnmi/proto/target"
 )
 
 func TestValidate(t *testing.T) {

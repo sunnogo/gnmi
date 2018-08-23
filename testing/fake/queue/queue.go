@@ -24,10 +24,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/golang/protobuf/proto"
+	"github.com/sunnogo/protobuf/proto"
 
-	gpb "github.com/openconfig/gnmi/proto/gnmi"
-	fpb "github.com/openconfig/gnmi/testing/fake/proto"
+	gpb "github.com/sunnogo/gnmi/proto/gnmi"
+	fpb "github.com/sunnogo/gnmi/testing/fake/proto"
 )
 
 // Queue is a generic interface for getting the next element from either a

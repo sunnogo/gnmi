@@ -14,16 +14,16 @@ This document references the gNMI Specification which can be found at
 http://github.com/openconfig/reference/blob/master/rpc/gnmi
 */
 
-import proto "github.com/golang/protobuf/proto"
+import proto "github.com/sunnogo/protobuf/proto"
 import fmt "fmt"
 import math "math"
-import descriptor "github.com/golang/protobuf/protoc-gen-go/descriptor"
-import any "github.com/golang/protobuf/ptypes/any"
-import gnmi_ext "github.com/openconfig/gnmi/proto/gnmi_ext"
+import descriptor "github.com/sunnogo/protobuf/protoc-gen-go/descriptor"
+import any "github.com/sunnogo/protobuf/ptypes/any"
+import gnmi_ext "github.com/sunnogo/gnmi/proto/gnmi_ext"
 
 import (
-	context "golang.org/x/net/context"
-	grpc "google.golang.org/grpc"
+	context "github.com/sunnogo/net/context"
+	grpc "github.com/sunnogo/grpc-go"
 )
 
 // Reference imports to suppress errors if they are not otherwise used.
@@ -2469,7 +2469,7 @@ const _ = grpc.SupportPackageIsVersion4
 
 // GNMIClient is the client API for GNMI service.
 //
-// For semantics around ctx use and closing/ending streaming RPCs, please refer to https://godoc.org/google.golang.org/grpc#ClientConn.NewStream.
+// For semantics around ctx use and closing/ending streaming RPCs, please refer to https://godoc.org/github.com/sunnogo/grpc-go#ClientConn.NewStream.
 type GNMIClient interface {
 	// Capabilities allows the client to retrieve the set of capabilities that
 	// is supported by the target. This allows the target to validate the

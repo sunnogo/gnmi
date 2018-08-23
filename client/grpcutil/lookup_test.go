@@ -21,12 +21,12 @@ import (
 	"testing"
 
 	log "github.com/golang/glog"
-	"golang.org/x/net/context"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/reflection"
-	"github.com/openconfig/gnmi/unimplemented"
+	"github.com/sunnogo/net/context"
+	"github.com/sunnogo/grpc-go"
+	"github.com/sunnogo/grpc-go/reflection"
+	"github.com/sunnogo/gnmi/unimplemented"
 
-	gpb "github.com/openconfig/gnmi/proto/gnmi"
+	gpb "github.com/sunnogo/gnmi/proto/gnmi"
 )
 
 func TestLookup(t *testing.T) {

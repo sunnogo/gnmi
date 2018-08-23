@@ -25,14 +25,14 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
 	"github.com/kylelemons/godebug/pretty"
-	"google.golang.org/grpc"
+	"github.com/sunnogo/grpc-go"
 	"github.com/openconfig/ygot/ygot"
-	"github.com/openconfig/gnmi/client"
-	"github.com/openconfig/gnmi/testing/fake/gnmi"
-	"github.com/openconfig/gnmi/testing/fake/testing/grpc/config"
+	"github.com/sunnogo/gnmi/client"
+	"github.com/sunnogo/gnmi/testing/fake/gnmi"
+	"github.com/sunnogo/gnmi/testing/fake/testing/grpc/config"
 
-	gpb "github.com/openconfig/gnmi/proto/gnmi"
-	fpb "github.com/openconfig/gnmi/testing/fake/proto"
+	gpb "github.com/sunnogo/gnmi/proto/gnmi"
+	fpb "github.com/sunnogo/gnmi/testing/fake/proto"
 )
 
 func TestClient(t *testing.T) {

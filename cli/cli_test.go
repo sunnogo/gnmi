@@ -25,13 +25,13 @@ import (
 	"time"
 
 	"context"
-	"google.golang.org/grpc"
-	"github.com/openconfig/gnmi/client"
-	_ "github.com/openconfig/gnmi/client/gnmi"
-	"github.com/openconfig/gnmi/testing/fake/gnmi"
-	"github.com/openconfig/gnmi/testing/fake/testing/grpc/config"
+	"github.com/sunnogo/grpc-go"
+	"github.com/sunnogo/gnmi/client"
+	_ "github.com/sunnogo/gnmi/client/gnmi"
+	"github.com/sunnogo/gnmi/testing/fake/gnmi"
+	"github.com/sunnogo/gnmi/testing/fake/testing/grpc/config"
 
-	fpb "github.com/openconfig/gnmi/testing/fake/proto"
+	fpb "github.com/sunnogo/gnmi/testing/fake/proto"
 )
 
 func TestSendQueryAndDisplayFail(t *testing.T) {

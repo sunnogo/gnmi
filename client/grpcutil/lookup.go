@@ -19,9 +19,9 @@ package grpcutil
 
 import (
 	"context"
-	"google.golang.org/grpc"
+	"github.com/sunnogo/grpc-go"
 
-	rpb "google.golang.org/grpc/reflection/grpc_reflection_v1alpha"
+	rpb "github.com/sunnogo/grpc-go/reflection/grpc_reflection_v1alpha"
 )
 
 // Lookup uses ServerReflection service on conn to find a named service.

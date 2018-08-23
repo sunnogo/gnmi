@@ -21,7 +21,7 @@ package path
 import (
 	"sort"
 
-	gpb "github.com/openconfig/gnmi/proto/gnmi"
+	gpb "github.com/sunnogo/gnmi/proto/gnmi"
 )
 
 // ToStrings converts gnmi.Path to index strings. When index strings are generated,

@@ -23,7 +23,7 @@ import (
 	"math"
 	"unicode/utf8"
 
-	pb "github.com/openconfig/gnmi/proto/gnmi"
+	pb "github.com/sunnogo/gnmi/proto/gnmi"
 )
 
 // FromScalar will convert common scalar types to their TypedValue equivalent.

@@ -26,15 +26,15 @@ import (
 	"time"
 
 	"context"
-	"github.com/golang/protobuf/proto"
-	"google.golang.org/grpc"
-	"github.com/openconfig/gnmi/cache"
-	"github.com/openconfig/gnmi/client"
-	gnmiclient "github.com/openconfig/gnmi/client/gnmi"
-	"github.com/openconfig/gnmi/testing/fake/testing/grpc/config"
-	"github.com/openconfig/gnmi/value"
+	"github.com/sunnogo/protobuf/proto"
+	"github.com/sunnogo/grpc-go"
+	"github.com/sunnogo/gnmi/cache"
+	"github.com/sunnogo/gnmi/client"
+	gnmiclient "github.com/sunnogo/gnmi/client/gnmi"
+	"github.com/sunnogo/gnmi/testing/fake/testing/grpc/config"
+	"github.com/sunnogo/gnmi/value"
 
-	pb "github.com/openconfig/gnmi/proto/gnmi"
+	pb "github.com/sunnogo/gnmi/proto/gnmi"
 )
 
 func startServer(targets []string) (string, *cache.Cache, func(), error) {

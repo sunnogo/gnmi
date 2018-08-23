@@ -18,7 +18,7 @@ limitations under the License.
 // library using gnmi.proto.
 //
 // Note: this package should not be used directly. Use
-// github.com/openconfig/gnmi/client instead.
+// github.com/sunnogo/gnmi/client instead.
 package client
 
 import (
@@ -30,16 +30,16 @@ import (
 
 	log "github.com/golang/glog"
 	"context"
-	"github.com/golang/protobuf/proto"
-	"google.golang.org/grpc/credentials"
-	"google.golang.org/grpc"
+	"github.com/sunnogo/protobuf/proto"
+	"github.com/sunnogo/grpc-go/credentials"
+	"github.com/sunnogo/grpc-go"
 	"github.com/openconfig/ygot/ygot"
-	"github.com/openconfig/gnmi/client"
-	"github.com/openconfig/gnmi/client/grpcutil"
-	"github.com/openconfig/gnmi/path"
-	"github.com/openconfig/gnmi/value"
+	"github.com/sunnogo/gnmi/client"
+	"github.com/sunnogo/gnmi/client/grpcutil"
+	"github.com/sunnogo/gnmi/path"
+	"github.com/sunnogo/gnmi/value"
 
-	gpb "github.com/openconfig/gnmi/proto/gnmi"
+	gpb "github.com/sunnogo/gnmi/proto/gnmi"
 )
 
 // Type defines the name resolution for this client type.

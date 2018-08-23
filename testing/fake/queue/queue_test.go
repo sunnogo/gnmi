@@ -23,10 +23,10 @@ import (
 	"time"
 
 	"github.com/kylelemons/godebug/pretty"
-	"github.com/openconfig/gnmi/errdiff"
+	"github.com/sunnogo/gnmi/errdiff"
 
-	gpb "github.com/openconfig/gnmi/proto/gnmi"
-	fpb "github.com/openconfig/gnmi/testing/fake/proto"
+	gpb "github.com/sunnogo/gnmi/proto/gnmi"
+	fpb "github.com/sunnogo/gnmi/testing/fake/proto"
 )
 
 var seed = int64(100)

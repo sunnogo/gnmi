@@ -22,7 +22,7 @@ import (
 	"time"
 
 	"context"
-	"github.com/openconfig/gnmi/client"
+	"github.com/sunnogo/gnmi/client"
 )
 
 func ExampleClient() {

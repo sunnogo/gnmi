@@ -25,8 +25,8 @@ import (
 
 	log "github.com/golang/glog"
 	"context"
-	"github.com/golang/protobuf/proto"
-	"github.com/openconfig/gnmi/client"
+	"github.com/sunnogo/protobuf/proto"
+	"github.com/sunnogo/gnmi/client"
 )
 
 // New can be replaced for any negative testing you would like to do as well.

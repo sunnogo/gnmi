@@ -22,8 +22,8 @@ import (
 	"strings"
 	"testing"
 
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc"
+	"github.com/sunnogo/grpc-go/codes"
+	"github.com/sunnogo/grpc-go"
 )
 
 func TestText(t *testing.T) {

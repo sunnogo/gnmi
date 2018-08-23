@@ -20,7 +20,7 @@ import (
 	"sync"
 	"time"
 
-	gpb "github.com/openconfig/gnmi/proto/gnmi"
+	gpb "github.com/sunnogo/gnmi/proto/gnmi"
 )
 
 // FixedQueue provides a strict delivery of provides updates.  If checkDelay,

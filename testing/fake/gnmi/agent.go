@@ -28,13 +28,13 @@ import (
 	"sync"
 
 	log "github.com/golang/glog"
-	"golang.org/x/net/context"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/reflection"
+	"github.com/sunnogo/net/context"
+	"github.com/sunnogo/grpc-go/codes"
+	"github.com/sunnogo/grpc-go"
+	"github.com/sunnogo/grpc-go/reflection"
 
-	gnmipb "github.com/openconfig/gnmi/proto/gnmi"
-	fpb "github.com/openconfig/gnmi/testing/fake/proto"
+	gnmipb "github.com/sunnogo/gnmi/proto/gnmi"
+	fpb "github.com/sunnogo/gnmi/testing/fake/proto"
 )
 
 // Agent manages a single gNMI agent implementation. Each client that connects

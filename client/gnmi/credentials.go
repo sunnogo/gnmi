@@ -17,8 +17,8 @@ limitations under the License.
 package client
 
 import (
-	"golang.org/x/net/context"
-	"google.golang.org/grpc/credentials"
+	"github.com/sunnogo/net/context"
+	"github.com/sunnogo/grpc-go/credentials"
 )
 
 // passCred is an username/password implementation of credentials.Credentials.

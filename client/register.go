@@ -25,7 +25,7 @@ import (
 
 	log "github.com/golang/glog"
 	"context"
-	"github.com/openconfig/gnmi/errlist"
+	"github.com/sunnogo/gnmi/errlist"
 )
 
 var (

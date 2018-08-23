@@ -25,15 +25,15 @@ import (
 	"sync"
 	"testing"
 
-	"golang.org/x/net/context"
+	"github.com/sunnogo/net/context"
 	"github.com/kylelemons/godebug/pretty"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/credentials"
-	"google.golang.org/grpc"
-	"github.com/openconfig/gnmi/testing/fake/testing/grpc/config"
+	"github.com/sunnogo/grpc-go/codes"
+	"github.com/sunnogo/grpc-go/credentials"
+	"github.com/sunnogo/grpc-go"
+	"github.com/sunnogo/gnmi/testing/fake/testing/grpc/config"
 
-	gnmipb "github.com/openconfig/gnmi/proto/gnmi"
-	fpb "github.com/openconfig/gnmi/testing/fake/proto"
+	gnmipb "github.com/sunnogo/gnmi/proto/gnmi"
+	fpb "github.com/sunnogo/gnmi/testing/fake/proto"
 )
 
 type direction string

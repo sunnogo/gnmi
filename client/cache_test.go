@@ -24,8 +24,8 @@ import (
 	"time"
 
 	"context"
-	"github.com/openconfig/gnmi/client"
-	fake "github.com/openconfig/gnmi/client/fake"
+	"github.com/sunnogo/gnmi/client"
+	fake "github.com/sunnogo/gnmi/client/fake"
 )
 
 const (

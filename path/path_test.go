@@ -20,7 +20,7 @@ import (
 	"reflect"
 	"testing"
 
-	gpb "github.com/openconfig/gnmi/proto/gnmi"
+	gpb "github.com/sunnogo/gnmi/proto/gnmi"
 )
 
 func TestSortedValues(t *testing.T) {

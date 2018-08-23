@@ -69,8 +69,8 @@ import (
 	"fmt"
 	"strings"
 
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc"
+	"github.com/sunnogo/grpc-go/codes"
+	"github.com/sunnogo/grpc-go"
 )
 
 // Text returns a message describing the difference between the

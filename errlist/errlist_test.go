@@ -24,7 +24,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/openconfig/gnmi/errlist"
+	"github.com/sunnogo/gnmi/errlist"
 )
 
 func TestNil(t *testing.T) {

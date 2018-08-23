@@ -40,14 +40,14 @@ import (
 	
 	log "github.com/golang/glog"
 	"context"
-	"github.com/golang/protobuf/proto"
+	"github.com/sunnogo/protobuf/proto"
 	"golang.org/x/crypto/ssh/terminal"
-	"github.com/openconfig/gnmi/cli"
-	"github.com/openconfig/gnmi/client"
-	"github.com/openconfig/gnmi/client/flags"
-	gclient "github.com/openconfig/gnmi/client/gnmi"
+	"github.com/sunnogo/gnmi/cli"
+	"github.com/sunnogo/gnmi/client"
+	"github.com/sunnogo/gnmi/client/flags"
+	gclient "github.com/sunnogo/gnmi/client/gnmi"
 
-	gpb "github.com/openconfig/gnmi/proto/gnmi"
+	gpb "github.com/sunnogo/gnmi/proto/gnmi"
 )
 
 var (

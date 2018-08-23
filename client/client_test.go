@@ -24,9 +24,9 @@ import (
 	"time"
 
 	"context"
-	"github.com/golang/protobuf/proto"
-	"github.com/openconfig/gnmi/client"
-	fclient "github.com/openconfig/gnmi/client/fake"
+	"github.com/sunnogo/protobuf/proto"
+	"github.com/sunnogo/gnmi/client"
+	fclient "github.com/sunnogo/gnmi/client/fake"
 )
 
 const (

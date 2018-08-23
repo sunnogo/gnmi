@@ -23,20 +23,20 @@ import (
 	"time"
 
 	log "github.com/golang/glog"
-	"github.com/golang/protobuf/proto"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/peer"
-	"google.golang.org/grpc/status"
-	"github.com/openconfig/gnmi/cache"
-	"github.com/openconfig/gnmi/client"
-	"github.com/openconfig/gnmi/coalesce"
-	"github.com/openconfig/gnmi/ctree"
-	"github.com/openconfig/gnmi/match"
-	"github.com/openconfig/gnmi/path"
-	"github.com/openconfig/gnmi/unimplemented"
-	"github.com/openconfig/gnmi/value"
+	"github.com/sunnogo/protobuf/proto"
+	"github.com/sunnogo/grpc-go/codes"
+	"github.com/sunnogo/grpc-go/peer"
+	"github.com/sunnogo/grpc-go/status"
+	"github.com/sunnogo/gnmi/cache"
+	"github.com/sunnogo/gnmi/client"
+	"github.com/sunnogo/gnmi/coalesce"
+	"github.com/sunnogo/gnmi/ctree"
+	"github.com/sunnogo/gnmi/match"
+	"github.com/sunnogo/gnmi/path"
+	"github.com/sunnogo/gnmi/unimplemented"
+	"github.com/sunnogo/gnmi/value"
 
-	pb "github.com/openconfig/gnmi/proto/gnmi"
+	pb "github.com/sunnogo/gnmi/proto/gnmi"
 )
 
 var (

@@ -20,9 +20,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/golang/protobuf/proto"
-	"github.com/golang/protobuf/ptypes"
-	pb "github.com/openconfig/gnmi/proto/gnmi"
+	"github.com/sunnogo/protobuf/proto"
+	"github.com/sunnogo/protobuf/ptypes"
+	pb "github.com/sunnogo/gnmi/proto/gnmi"
 )
 
 type scalarTest struct {

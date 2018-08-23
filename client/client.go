@@ -32,7 +32,7 @@ limitations under the License.
 //
 // This package uses pluggable transport implementations. For example, for gNMI
 // targets you need to add this blank import:
-//  import _ "github.com/openconfig/gnmi/client/gnmi"
+//  import _ "github.com/sunnogo/gnmi/client/gnmi"
 //
 // That import will automatically register itself as available ClientType in
 // this package (using func init).

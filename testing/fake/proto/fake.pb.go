@@ -3,11 +3,11 @@
 
 package gnmi_fake
 
-import proto "github.com/golang/protobuf/proto"
+import proto "github.com/sunnogo/protobuf/proto"
 import fmt "fmt"
 import math "math"
-import any "github.com/golang/protobuf/ptypes/any"
-import gnmi "github.com/openconfig/gnmi/proto/gnmi"
+import any "github.com/sunnogo/protobuf/ptypes/any"
+import gnmi "github.com/sunnogo/gnmi/proto/gnmi"
 
 // Reference imports to suppress errors if they are not otherwise used.
 var _ = proto.Marshal

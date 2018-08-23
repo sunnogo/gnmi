@@ -8,10 +8,10 @@ Package target contains messages for defining a configuration of a caching
 collector to connect to multiple gNMI targets.
 */
 
-import proto "github.com/golang/protobuf/proto"
+import proto "github.com/sunnogo/protobuf/proto"
 import fmt "fmt"
 import math "math"
-import gnmi "github.com/openconfig/gnmi/proto/gnmi"
+import gnmi "github.com/sunnogo/gnmi/proto/gnmi"
 
 // Reference imports to suppress errors if they are not otherwise used.
 var _ = proto.Marshal

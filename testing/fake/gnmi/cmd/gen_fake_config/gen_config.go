@@ -24,9 +24,9 @@ import (
 	"os"
 
 	log "github.com/golang/glog"
-	"github.com/golang/protobuf/proto"
+	"github.com/sunnogo/protobuf/proto"
 
-	fpb "github.com/openconfig/gnmi/testing/fake/proto"
+	fpb "github.com/sunnogo/gnmi/testing/fake/proto"
 )
 
 // Modify the config below to change generated output.

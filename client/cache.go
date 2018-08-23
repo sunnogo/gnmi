@@ -21,7 +21,7 @@ import (
 
 	log "github.com/golang/glog"
 	"context"
-	"github.com/openconfig/gnmi/ctree"
+	"github.com/sunnogo/gnmi/ctree"
 )
 
 // Client adds a caching layer on top of a simple query client.

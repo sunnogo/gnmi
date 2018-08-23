@@ -23,9 +23,9 @@ import (
 	"regexp"
 	"time"
 
-	"github.com/golang/protobuf/proto"
-	"github.com/openconfig/gnmi/path"
-	gpb "github.com/openconfig/gnmi/proto/gnmi"
+	"github.com/sunnogo/protobuf/proto"
+	"github.com/sunnogo/gnmi/path"
+	gpb "github.com/sunnogo/gnmi/proto/gnmi"
 )
 
 // NotificationHandler is a type for the client specific handler function.

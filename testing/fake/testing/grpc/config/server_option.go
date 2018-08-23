@@ -21,10 +21,10 @@ package config
 import (
 	"crypto/tls"
 
-	"google.golang.org/grpc/credentials"
-	"google.golang.org/grpc"
+	"github.com/sunnogo/grpc-go/credentials"
+	"github.com/sunnogo/grpc-go"
 
-	gtls "github.com/openconfig/gnmi/testing/fake/testing/tls"
+	gtls "github.com/sunnogo/gnmi/testing/fake/testing/tls"
 )
 
 // WithSelfTLSCert generates a new self-signed in-memory TLS certificate and

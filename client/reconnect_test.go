@@ -22,8 +22,8 @@ import (
 	"time"
 
 	"context"
-	"github.com/openconfig/gnmi/client"
-	fclient "github.com/openconfig/gnmi/client/fake"
+	"github.com/sunnogo/gnmi/client"
+	fclient "github.com/sunnogo/gnmi/client/fake"
 )
 
 func TestReconnect(t *testing.T) {
